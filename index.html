@@ -73,7 +73,10 @@
 
   <!-- Profile Picture -->
   <section id="profile" class="section__container">
-    <img class="picture--circle" src="image/profile.jpg" alt="">
+    <!-- <img class="picture--circle" src="image/profile.jpg" alt=""> -->
+    <!-- 증명사진 ver -->
+    <img class="picture--circle" src="image/profile_2.jpeg" alt="">
+
 
   </section>
 
@@ -84,7 +87,7 @@
     <div class="about__text">
       <p>
         반갑습니다. 항상 호기심이 넘치는 남자 박선홍입니다.<br>
-        저는 한국외대에서 국제통상학을 전공하고 있으며 SoftwareW&AI 학과에서 전산학과 데이터 분석을 공부하고 있습니다.<br>
+        저는 한국외대에서 국제통상학을 전공하고 있으며 SoftwareW&AI 학과에서 컴퓨터공학과 데이터 분석을 공부하고 있습니다.<br>
         주체적으로 일하는 것을 선호하면서도, 동료들과 소통하면서 발굴한 아이디어를 발전시킬 때 더 큰 기쁨을 느낍니다.<br>
       </p>
 
@@ -283,14 +286,27 @@
       <h1>My Works</h1>
       <!-- <h3>project</h3> -->
       <div class="work__categories">
-        <button class="category__btn selected" data-filter="*">All<span class="category__count">6</span></button>
+        <button class="category__btn selected" data-filter="*">All<span class="category__count">7</span></button>
         <button class="category__btn" data-filter="DA">Data Analysis<span class="category__count">4</span></button>
-        <button class="category__btn" data-filter="NLP">NLP<span class="category__count">1</span></button>
+        <button class="category__btn" data-filter="NLP">NLP<span class="category__count">2</span></button>
         <button class="category__btn" data-filter="ETC">ETC<span class="category__count">1</span></button>
       </div>
   
       <div class="work__projects">
 
+        <div class="project" data-type="NLP">
+          <div class="project__img">
+            <img src="image/projects/NLP-BETTer.png"" alt="">
+          </div>
+          <div class="project__description">
+            <h3 class="title">BETTer: 청각장애인 대상 영어 발음 교정 서비스</h3>
+            <p class="content"><b>음성인식</b>과<b>음성합성을</b>을 활용한 발음 교정 서비스<br>
+            Real-Time-Voice Cloning과 Wav2Vec2.0모델 기반 서비스<br>
+            <a href="https://github.com/chestnut1717/voice_correction_deploy/" target="blank" class="icon">
+              <i class="fab fa-github" style="font-size: 1.5vw;"></i></p>
+            </a>
+          </div>
+        </div>
 
         <div class="project" data-type="DA">
           <div class="project__img">
@@ -393,10 +409,10 @@
   <!-- Activity -->
   <section id="activity">
     <div class="section__container">
-      <h1>Achievement</h1>
+      <h1>Awards</h1>
       <!-- <h3>lorem...</h3> -->
       <ol class="activity__list">
-        <li>광주 인공지능사관학교 <b>성적우수자</b></li>
+        <li>데이터청년캠퍼스 우수 프로젝트 평가 <b>장관상</b></li>
         <li>광주 인공지능사관학교 데이터 시각 경진대회 <b>우수상</b></li>
         <li>광주형 인공지능 문제해결 아이디어 공모전 <b>우수상</b></li>
         <li>HUFS CODE FESTIVAL <b>동상</b></li>
